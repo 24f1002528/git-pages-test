@@ -1,0 +1,10 @@
+name: first_flow
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 24f1002528@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
